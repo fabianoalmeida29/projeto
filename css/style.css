@@ -1,6 +1,7 @@
 @charset "UTF-8";
 *{
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 :root{
@@ -12,14 +13,15 @@
 }
 
 body{
+    background-image: linear-gradient(90deg ,#343775 20%,#72738C80 80% );
     background-color: #72738C;
     
     
 }
 form{
-    width: 400px ;
+    width: 400px;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 140px;
 }
 
 .card{
@@ -68,6 +70,7 @@ form{
 
 }
 
+
 .card-group>input{
     border-radius: 4px;
     outline: 0;
@@ -76,6 +79,32 @@ form{
     display: block;
     margin: auto;
     
-    
-    
+      
+}
+
+.card-lembre {
+    padding-left: 11px;
+
+}
+
+.card-group>button{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 8px;
+    border-radius: 40px;
+    color: white;
+    background-color: #1A1C40;
+    box-shadow: 1px 1px 3px rgba(5, 27, 68, 0.692);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    border: 0px;
+       
+}
+
+.card-group>button:hover{
+    background-color: #4449A6;
+    cursor: pointer;
+    outline: 0;
+    border: 0px;
 }
